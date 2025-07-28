@@ -1,7 +1,7 @@
-import dash
-from dash import dcc, html, Input, Output
-import pandas as pd
-import plotly.express as px
+import dash # type: ignore
+from dash import dcc, html, Input, Output # type: ignore
+import pandas as pd # type: ignore
+import plotly.express as px # type: ignore
 import json
 
 # Load dữ liệu và bản đồ
@@ -38,10 +38,32 @@ app.layout = html.Div([
 
     html.Br(),
 
+    #html.Div([
+    #    dcc.Graph(id='map', style={'width': '60%','height': '700px','display': 'inline-block', 'verticalAlign': 'top'}),
+    #    dcc.Graph(id='bar', style={'width': '38%','height': '700px', 'display': 'inline-block', 'verticalAlign': 'top'}),
+    #])
     html.Div([
-        dcc.Graph(id='map', style={'width': '60%','height': '700px','display': 'inline-block', 'verticalAlign': 'top'}),
-        dcc.Graph(id='bar', style={'width': '38%','height': '700px', 'display': 'inline-block', 'verticalAlign': 'top'}),
-    ])
+    dcc.Graph(
+        id='map',
+        config={'scrollZoom': True},  # cho phép cuộn zoom
+        style={
+            'width': '60%',
+            'height': '700px',
+            'display': 'inline-block',
+            'verticalAlign': 'top',
+            'cursor': 'pointer'  # con trỏ ngón tay
+        }
+    ),
+    dcc.Graph(
+        id='bar',
+        style={
+            'width': '38%',
+            'height': '700px',
+            'display': 'inline-block',
+            'verticalAlign': 'top'
+        }
+    ),
+])
 ])
 
 
@@ -70,7 +92,7 @@ def update_dashboard(year_range, sector):
         color_continuous_scale="Viridis",
         title="Tỷ lệ SME sử dụng CNTT theo tỉnh"
     )
-    
+
     df_bar = dff.groupby('Technology')['CNTT_Used'].sum().reset_index()
     bar_fig = px.bar(df_bar, x='Technology', y='CNTT_Used', title="Số SME theo loại công nghệ")
 
