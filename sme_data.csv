@@ -1,0 +1,311 @@
+Province,Year,Sector,CNTT_Used,Technology
+Hà Nội,2019,Du lịch,144,CRM
+Hà Nội,2020,Bán lẻ,45,AI
+Hà Nội,2021,CNTT,175,ERP
+Hà Nội,2022,Du lịch,123,ERP
+Hà Nội,2023,Dịch vụ,167,Email
+Hồ Chí Minh,2019,Sản xuất,133,Email
+Hồ Chí Minh,2020,Du lịch,159,AI
+Hồ Chí Minh,2021,CNTT,76,AI
+Hồ Chí Minh,2022,Bán lẻ,155,Email
+Hồ Chí Minh,2023,Du lịch,186,CRM
+Đà Nẵng,2019,Du lịch,88,CRM
+Đà Nẵng,2020,Sản xuất,135,CRM
+Đà Nẵng,2021,Sản xuất,177,Email
+Đà Nẵng,2022,Dịch vụ,66,Email
+Đà Nẵng,2023,Sản xuất,188,Cloud
+Hải Phòng,2019,Sản xuất,189,Email
+Hải Phòng,2020,Bán lẻ,31,CRM
+Hải Phòng,2021,Du lịch,190,Email
+Hải Phòng,2022,Bán lẻ,139,Email
+Hải Phòng,2023,Dịch vụ,172,Email
+Cần Thơ,2019,CNTT,136,AI
+Cần Thơ,2020,Dịch vụ,111,Cloud
+Cần Thơ,2021,Bán lẻ,67,CRM
+Cần Thơ,2022,Du lịch,151,AI
+Cần Thơ,2023,Du lịch,97,CRM
+Bình Dương,2019,Du lịch,94,ERP
+Bình Dương,2020,CNTT,189,AI
+Bình Dương,2021,CNTT,174,Email
+Bình Dương,2022,Du lịch,80,Cloud
+Bình Dương,2023,CNTT,152,AI
+Đồng Nai,2019,Du lịch,141,AI
+Đồng Nai,2020,Du lịch,123,Email
+Đồng Nai,2021,CNTT,90,AI
+Đồng Nai,2022,Sản xuất,40,ERP
+Đồng Nai,2023,Sản xuất,93,Email
+Khánh Hòa,2019,Bán lẻ,177,CRM
+Khánh Hòa,2020,Du lịch,66,Cloud
+Khánh Hòa,2021,CNTT,62,AI
+Khánh Hòa,2022,Du lịch,43,Email
+Khánh Hòa,2023,CNTT,94,Email
+Lâm Đồng,2019,Du lịch,97,Cloud
+Lâm Đồng,2020,Bán lẻ,93,Email
+Lâm Đồng,2021,Dịch vụ,194,AI
+Lâm Đồng,2022,CNTT,101,ERP
+Lâm Đồng,2023,Dịch vụ,40,AI
+Quảng Ninh,2019,Bán lẻ,89,CRM
+Quảng Ninh,2020,Bán lẻ,33,Email
+Quảng Ninh,2021,Du lịch,95,CRM
+Quảng Ninh,2022,Du lịch,169,ERP
+Quảng Ninh,2023,Bán lẻ,150,Cloud
+Bắc Ninh,2019,Bán lẻ,174,ERP
+Bắc Ninh,2020,Du lịch,39,ERP
+Bắc Ninh,2021,CNTT,42,ERP
+Bắc Ninh,2022,Du lịch,164,AI
+Bắc Ninh,2023,CNTT,25,Email
+Thanh Hóa,2019,Bán lẻ,109,Email
+Thanh Hóa,2020,Bán lẻ,68,Cloud
+Thanh Hóa,2021,Du lịch,144,Email
+Thanh Hóa,2022,Dịch vụ,196,CRM
+Thanh Hóa,2023,CNTT,73,ERP
+Nghệ An,2019,Du lịch,24,Cloud
+Nghệ An,2020,Sản xuất,48,CRM
+Nghệ An,2021,CNTT,60,Cloud
+Nghệ An,2022,Dịch vụ,36,Cloud
+Nghệ An,2023,Bán lẻ,33,Email
+Thừa Thiên - Huế,2019,Dịch vụ,163,Cloud
+Thừa Thiên - Huế,2020,Du lịch,55,Cloud
+Thừa Thiên - Huế,2021,Du lịch,125,AI
+Thừa Thiên - Huế,2022,Sản xuất,117,CRM
+Thừa Thiên - Huế,2023,CNTT,181,Cloud
+An Giang,2019,Du lịch,143,Cloud
+An Giang,2020,Dịch vụ,132,AI
+An Giang,2021,Du lịch,134,Email
+An Giang,2022,Bán lẻ,108,CRM
+An Giang,2023,Du lịch,187,CRM
+Bình Định,2019,CNTT,176,AI
+Bình Định,2020,CNTT,44,Cloud
+Bình Định,2021,Bán lẻ,54,Cloud
+Bình Định,2022,Dịch vụ,29,AI
+Bình Định,2023,CNTT,53,Email
+Bình Thuận,2019,Bán lẻ,87,CRM
+Bình Thuận,2020,Dịch vụ,57,Cloud
+Bình Thuận,2021,Du lịch,156,CRM
+Bình Thuận,2022,Bán lẻ,189,CRM
+Bình Thuận,2023,Du lịch,182,ERP
+Cà Mau,2019,Dịch vụ,57,CRM
+Cà Mau,2020,Du lịch,61,ERP
+Cà Mau,2021,Bán lẻ,99,CRM
+Cà Mau,2022,Dịch vụ,173,AI
+Cà Mau,2023,Bán lẻ,171,ERP
+Gia Lai,2019,CNTT,48,ERP
+Gia Lai,2020,CNTT,164,AI
+Gia Lai,2021,Du lịch,161,Cloud
+Gia Lai,2022,CNTT,63,ERP
+Gia Lai,2023,Du lịch,101,Email
+Hà Giang,2019,Bán lẻ,59,AI
+Hà Giang,2020,Du lịch,36,Email
+Hà Giang,2021,Du lịch,144,Cloud
+Hà Giang,2022,Dịch vụ,93,AI
+Hà Giang,2023,CNTT,99,CRM
+Hà Nam,2019,Dịch vụ,190,Email
+Hà Nam,2020,Sản xuất,55,ERP
+Hà Nam,2021,Bán lẻ,60,Email
+Hà Nam,2022,Du lịch,107,CRM
+Hà Nam,2023,Du lịch,161,ERP
+Hà Tĩnh,2019,Du lịch,160,ERP
+Hà Tĩnh,2020,Du lịch,38,Email
+Hà Tĩnh,2021,Sản xuất,64,Email
+Hà Tĩnh,2022,Dịch vụ,128,AI
+Hà Tĩnh,2023,Bán lẻ,97,Email
+Hải Dương,2019,Dịch vụ,90,AI
+Hải Dương,2020,Sản xuất,129,Cloud
+Hải Dương,2021,Dịch vụ,94,ERP
+Hải Dương,2022,Du lịch,165,CRM
+Hải Dương,2023,Bán lẻ,145,Cloud
+Hậu Giang,2019,CNTT,187,Cloud
+Hậu Giang,2020,Dịch vụ,175,CRM
+Hậu Giang,2021,Dịch vụ,77,Email
+Hậu Giang,2022,Du lịch,110,CRM
+Hậu Giang,2023,Sản xuất,85,ERP
+Hòa Bình,2019,Du lịch,182,ERP
+Hòa Bình,2020,CNTT,25,Cloud
+Hòa Bình,2021,Du lịch,99,Cloud
+Hòa Bình,2022,Du lịch,137,AI
+Hòa Bình,2023,Bán lẻ,158,Email
+Hưng Yên,2019,CNTT,166,Cloud
+Hưng Yên,2020,Bán lẻ,56,AI
+Hưng Yên,2021,Sản xuất,71,AI
+Hưng Yên,2022,Bán lẻ,169,Email
+Hưng Yên,2023,Bán lẻ,154,Cloud
+Kiên Giang,2019,Dịch vụ,119,Cloud
+Kiên Giang,2020,Du lịch,171,ERP
+Kiên Giang,2021,Bán lẻ,81,Email
+Kiên Giang,2022,Dịch vụ,195,Email
+Kiên Giang,2023,Bán lẻ,35,AI
+Kon Tum,2019,Du lịch,194,Email
+Kon Tum,2020,Sản xuất,94,ERP
+Kon Tum,2021,Bán lẻ,28,Email
+Kon Tum,2022,Sản xuất,121,Cloud
+Kon Tum,2023,Dịch vụ,48,CRM
+Lai Châu,2019,Dịch vụ,148,Cloud
+Lai Châu,2020,Du lịch,77,AI
+Lai Châu,2021,Sản xuất,115,AI
+Lai Châu,2022,Bán lẻ,34,Email
+Lai Châu,2023,CNTT,140,Cloud
+Lào Cai,2019,Bán lẻ,128,ERP
+Lào Cai,2020,Sản xuất,26,Cloud
+Lào Cai,2021,Sản xuất,184,AI
+Lào Cai,2022,CNTT,63,AI
+Lào Cai,2023,Sản xuất,131,AI
+Long An,2019,Dịch vụ,61,ERP
+Long An,2020,Dịch vụ,91,ERP
+Long An,2021,Du lịch,99,AI
+Long An,2022,CNTT,181,CRM
+Long An,2023,Dịch vụ,177,CRM
+Nam Định,2019,Du lịch,186,Email
+Nam Định,2020,Sản xuất,27,Cloud
+Nam Định,2021,CNTT,69,ERP
+Nam Định,2022,Dịch vụ,194,AI
+Nam Định,2023,Bán lẻ,153,AI
+Ninh Bình,2019,Dịch vụ,89,Cloud
+Ninh Bình,2020,Dịch vụ,85,ERP
+Ninh Bình,2021,Bán lẻ,87,Cloud
+Ninh Bình,2022,CNTT,100,AI
+Ninh Bình,2023,Du lịch,90,AI
+Ninh Thuận,2019,Du lịch,68,AI
+Ninh Thuận,2020,CNTT,134,Cloud
+Ninh Thuận,2021,Dịch vụ,159,CRM
+Ninh Thuận,2022,Sản xuất,66,Email
+Ninh Thuận,2023,CNTT,35,AI
+Phú Thọ,2019,Bán lẻ,102,CRM
+Phú Thọ,2020,Du lịch,159,AI
+Phú Thọ,2021,CNTT,115,CRM
+Phú Thọ,2022,Sản xuất,107,AI
+Phú Thọ,2023,CNTT,198,CRM
+Phú Yên,2019,Bán lẻ,187,Email
+Phú Yên,2020,CNTT,63,Email
+Phú Yên,2021,Du lịch,153,AI
+Phú Yên,2022,Du lịch,82,ERP
+Phú Yên,2023,Bán lẻ,109,Email
+Quảng Bình,2019,Sản xuất,181,ERP
+Quảng Bình,2020,Bán lẻ,118,Email
+Quảng Bình,2021,CNTT,37,Cloud
+Quảng Bình,2022,Bán lẻ,146,AI
+Quảng Bình,2023,CNTT,145,AI
+Quảng Nam,2019,Dịch vụ,93,ERP
+Quảng Nam,2020,Sản xuất,100,Email
+Quảng Nam,2021,CNTT,30,Cloud
+Quảng Nam,2022,Bán lẻ,46,Cloud
+Quảng Nam,2023,Dịch vụ,185,ERP
+Quảng Ngãi,2019,Dịch vụ,180,AI
+Quảng Ngãi,2020,CNTT,181,AI
+Quảng Ngãi,2021,CNTT,71,AI
+Quảng Ngãi,2022,Du lịch,55,Cloud
+Quảng Ngãi,2023,CNTT,112,AI
+Quảng Trị,2019,Du lịch,135,AI
+Quảng Trị,2020,Bán lẻ,69,AI
+Quảng Trị,2021,CNTT,168,AI
+Quảng Trị,2022,CNTT,105,Email
+Quảng Trị,2023,Bán lẻ,194,Cloud
+Sóc Trăng,2019,CNTT,102,ERP
+Sóc Trăng,2020,Sản xuất,171,ERP
+Sóc Trăng,2021,Bán lẻ,67,Email
+Sóc Trăng,2022,Sản xuất,177,CRM
+Sóc Trăng,2023,Dịch vụ,87,Cloud
+Sơn La,2019,CNTT,156,ERP
+Sơn La,2020,Bán lẻ,198,CRM
+Sơn La,2021,Du lịch,84,Cloud
+Sơn La,2022,CNTT,143,ERP
+Sơn La,2023,Du lịch,66,Cloud
+Tây Ninh,2019,Bán lẻ,159,Cloud
+Tây Ninh,2020,CNTT,168,AI
+Tây Ninh,2021,Sản xuất,55,Cloud
+Tây Ninh,2022,CNTT,190,Email
+Tây Ninh,2023,Bán lẻ,114,CRM
+Thái Bình,2019,Dịch vụ,128,ERP
+Thái Bình,2020,Sản xuất,49,ERP
+Thái Bình,2021,CNTT,101,ERP
+Thái Bình,2022,Sản xuất,22,CRM
+Thái Bình,2023,Du lịch,181,AI
+Thái Nguyên,2019,Bán lẻ,41,ERP
+Thái Nguyên,2020,Dịch vụ,192,CRM
+Thái Nguyên,2021,Dịch vụ,45,ERP
+Thái Nguyên,2022,Bán lẻ,69,CRM
+Thái Nguyên,2023,Bán lẻ,200,CRM
+Tiền Giang,2019,Dịch vụ,128,Cloud
+Tiền Giang,2020,Bán lẻ,60,ERP
+Tiền Giang,2021,Sản xuất,87,CRM
+Tiền Giang,2022,Du lịch,189,CRM
+Tiền Giang,2023,Sản xuất,166,ERP
+Trà Vinh,2019,Dịch vụ,57,CRM
+Trà Vinh,2020,Bán lẻ,37,ERP
+Trà Vinh,2021,CNTT,99,AI
+Trà Vinh,2022,Bán lẻ,85,AI
+Trà Vinh,2023,CNTT,138,CRM
+Tuyên Quang,2019,Du lịch,132,CRM
+Tuyên Quang,2020,Dịch vụ,197,CRM
+Tuyên Quang,2021,Du lịch,58,ERP
+Tuyên Quang,2022,Bán lẻ,190,AI
+Tuyên Quang,2023,CNTT,106,ERP
+Vĩnh Long,2019,Sản xuất,197,AI
+Vĩnh Long,2020,Sản xuất,187,AI
+Vĩnh Long,2021,Dịch vụ,160,Cloud
+Vĩnh Long,2022,Du lịch,178,AI
+Vĩnh Long,2023,Du lịch,26,AI
+Vĩnh Phúc,2019,Bán lẻ,152,ERP
+Vĩnh Phúc,2020,CNTT,79,CRM
+Vĩnh Phúc,2021,Bán lẻ,167,Email
+Vĩnh Phúc,2022,Bán lẻ,27,ERP
+Vĩnh Phúc,2023,Dịch vụ,101,Email
+Yên Bái,2019,Sản xuất,106,AI
+Yên Bái,2020,Bán lẻ,40,AI
+Yên Bái,2021,CNTT,140,Cloud
+Yên Bái,2022,Dịch vụ,87,Cloud
+Yên Bái,2023,Sản xuất,92,AI
+Bạc Liêu,2019,CNTT,81,AI
+Bạc Liêu,2020,Du lịch,43,CRM
+Bạc Liêu,2021,Sản xuất,58,AI
+Bạc Liêu,2022,Du lịch,171,ERP
+Bạc Liêu,2023,Du lịch,167,CRM
+Bắc Cạn,2019,Du lịch,155,ERP
+Bắc Cạn,2020,Bán lẻ,95,AI
+Bắc Cạn,2021,Dịch vụ,32,ERP
+Bắc Cạn,2022,CNTT,90,Cloud
+Bắc Cạn,2023,Du lịch,99,CRM
+Bắc Giang,2019,Bán lẻ,91,AI
+Bắc Giang,2020,Dịch vụ,186,Cloud
+Bắc Giang,2021,CNTT,162,CRM
+Bắc Giang,2022,CNTT,106,CRM
+Bắc Giang,2023,Du lịch,123,Email
+Bến Tre,2019,CNTT,130,AI
+Bến Tre,2020,CNTT,56,AI
+Bến Tre,2021,Bán lẻ,89,Email
+Bến Tre,2022,CNTT,46,CRM
+Bến Tre,2023,Du lịch,44,ERP
+Bình Phước,2019,Sản xuất,183,Email
+Bình Phước,2020,CNTT,111,ERP
+Bình Phước,2021,Du lịch,125,CRM
+Bình Phước,2022,Du lịch,158,Cloud
+Bình Phước,2023,CNTT,186,ERP
+Cao Bằng,2019,CNTT,42,ERP
+Cao Bằng,2020,Bán lẻ,38,ERP
+Cao Bằng,2021,Du lịch,92,Cloud
+Cao Bằng,2022,Dịch vụ,34,Email
+Cao Bằng,2023,Dịch vụ,40,ERP
+Đắk Lắk,2019,Du lịch,59,AI
+Đắk Lắk,2020,Sản xuất,177,ERP
+Đắk Lắk,2021,Sản xuất,127,CRM
+Đắk Lắk,2022,Bán lẻ,159,ERP
+Đắk Lắk,2023,Du lịch,161,ERP
+Đắk Nông,2019,Sản xuất,68,ERP
+Đắk Nông,2020,Sản xuất,34,CRM
+Đắk Nông,2021,Dịch vụ,196,Cloud
+Đắk Nông,2022,Sản xuất,138,Cloud
+Đắk Nông,2023,CNTT,55,Cloud
+Điện Biên,2019,Sản xuất,125,Email
+Điện Biên,2020,Du lịch,147,CRM
+Điện Biên,2021,CNTT,48,AI
+Điện Biên,2022,Dịch vụ,107,ERP
+Điện Biên,2023,Dịch vụ,185,AI
+Lạng Sơn,2019,Dịch vụ,193,Email
+Lạng Sơn,2020,Bán lẻ,89,AI
+Lạng Sơn,2021,Bán lẻ,183,Cloud
+Lạng Sơn,2022,Sản xuất,190,CRM
+Lạng Sơn,2023,Bán lẻ,81,AI
+Tuyên Quang,2019,Sản xuất,63,AI
+Tuyên Quang,2020,Du lịch,66,Cloud
+Tuyên Quang,2021,Sản xuất,160,CRM
+Tuyên Quang,2022,Sản xuất,183,ERP
+Tuyên Quang,2023,Sản xuất,96,AI
