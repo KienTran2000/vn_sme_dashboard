@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.wider.unu.edu/database/viet-nam-sme-database"><strong>Explore SME Dashboard Demo »</strong></a>
+  <a href="https://www.wider.unu.edu/database/viet-nam-sme-database"><strong>Explore SME Database in Vietnam »</strong></a>
 </p>
 
 
