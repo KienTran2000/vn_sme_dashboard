@@ -10,6 +10,10 @@
   Gain insights into how SMEs across Vietnam adopt digital technologies
 </p>
 
+<p align="center">
+  <a href="https://www.wider.unu.edu/database/viet-nam-sme-database"><strong>Explore SME Dashboard Demo »</strong></a>
+</p>
+
 
 ## Table of Contents
 
