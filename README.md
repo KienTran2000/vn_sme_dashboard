@@ -64,7 +64,6 @@ Researchers and consultants in evaluating the impact of ICT on SME performance.
 
 The dashboard leverages official datasets and data visualisation tools to make complex information accessible and actionable. With a focus on regional disparities and enterprise segmentation, the project offers data-driven insights to guide targeted support policies, enhance SME competitiveness, and accelerate Vietnam’s digital economy.
 </div>
----
 
 ## File Descriptions
 <div align="justify">
@@ -85,10 +84,12 @@ GeoJSON file containing the geographical boundaries of all provinces in Vietnam.
 5. venv/
 Auto-generated Python virtual environment (when using python -m venv). Contains installed dependencies like dash, pandas, geopandas, etc.
 </div>
+
 ## Result
 ```
 <iframe src="https://drive.google.com/file/d/YOUR_FILE_ID/preview" width="640" height="480"></iframe>
 ```
+
 ## Licensing, Authors, and Acknowledgements
 <div align="justify">
 We would like to thank the following sources and tools that made this project possible:
