@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.png" alt="Banner" width="800"/>
+  <img src="assets/doanh-nghiep-sme-1.png" alt="Banner" width="800"/>
 </p>
 
 <p align="center">
