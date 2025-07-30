@@ -1,12 +1,12 @@
 
 
-<h1 align="center">
+<p align="center">
   <strong>2011–2023 Vietnam SME Digital Adoption Analytics.</strong>
-</h1>
+</p>
 
-<h3 align="center">
+<p align="center">
   Gain insights into how SMEs across Vietnam adopt digital technologies
-</h3>
+</p>
 
 
 ## Table of Contents
