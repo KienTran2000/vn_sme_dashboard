@@ -1,12 +1,13 @@
 
 
-<p align="center">
-  <strong>Digital Technology Adoption of Small and Medium Enterprises (SMEs) in Vietnam from 2011 to 2023 Analytics.</strong>
-</p>
+<h1 align="center">
+  <strong>2011–2023 Vietnam SME Digital Adoption Analytics.</strong>
+</h1>
 
-This dashboard provides an interactive interface to examine how Vietnamese SMEs adopt technologies such as CRM, AI, Cloud, and eCommerce. Users can filter by year, province, sector, firm size, and display mode (ICT usage or productivity).
+<h3 align="center">
+  Gain insights into how SMEs across Vietnam adopt digital technologies
+</h3>
 
----
 
 ## Table of Contents
 
