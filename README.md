@@ -100,8 +100,8 @@ Auto-generated Python virtual environment (when using python -m venv). Contains 
 
 ## Result
 ```
-<video width="640" height="360" controls>
-  <source src="assets/SME1.mp4" type="video/mp4">
+<video width="800" controls>
+  <source src="https://github.com/KienTran2000/vn_sme_dashboard/releases/tag/v1.0" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
