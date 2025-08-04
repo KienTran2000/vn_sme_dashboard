@@ -106,10 +106,9 @@ https://private-user-images.githubusercontent.com/77290046/473861087-33aff68f-1e
 We would like to thank the following sources and tools that made this project possible:
 
 Vietnam GSO and Ministry of Information and Communications (MIC) for providing access to open SME datasets.
-
-GeoJSON Vietnam provinces shapefile from <a href="https://github.com/highcharts/map-collection-dist/blob/master/countries/vn/vn-all.topo.json?short_path=881c496"></a>
-
-
+<p align="justify">
+  GeoJSON Vietnam provinces shapefile from <a href="https://github.com/highcharts/map-collection-dist/blob/master/countries/vn/vn-all.topo.json?short_path=881c496"></a>
+</p>
 
 Dash by Plotly – A powerful Python framework for building web-based data applications.
 
