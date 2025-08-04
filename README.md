@@ -47,6 +47,10 @@ cd vietnam-sme-dashboard
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
+if you have problem related to err"can not be loaded" use:
+```bash
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+```
 
 ### 4. Install Dependencies
 ```bash

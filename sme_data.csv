@@ -1,90 +1,90 @@
 Province,Year,Sector,CNTT_Used,Technology,FirmSize,Productivity,ValueAdded
-Hà Nội,2011,Dịch vụ,112,Email,Small,120.5,500000
-Hồ Chí Minh,2011,Sản xuất,158,CRM,Large,118.3,840000
-Đà Nẵng,2012,CNTT,95,Cloud,Medium,127.9,620000
-Hải Phòng,2012,Bán lẻ,86,AI,Small,114.2,560000
-Cần Thơ,2013,Dịch vụ,101,ERP,Medium,121.6,610000
-Bình Dương,2013,Sản xuất,142,ERP,Large,137.4,850000
-Đồng Nai,2014,CNTT,119,AI,Medium,128.6,740000
-Khánh Hòa,2014,Du lịch,88,Email,Small,113.1,520000
-Quảng Ninh,2015,Dịch vụ,126,Cloud,Small,123.9,570000
-Lâm Đồng,2015,Bán lẻ,94,CRM,Medium,118.7,600000
-Thanh Hóa,2016,Du lịch,146,Cloud,Large,135.3,830000
-Nghệ An,2016,CNTT,100,Email,Small,129.5,590000
-Thừa Thiên - Huế,2017,Sản xuất,111,ERP,Medium,132.0,700000
-An Giang,2017,Bán lẻ,90,AI,Small,117.8,520000
-Bình Định,2018,Dịch vụ,97,Email,Small,125.6,640000
-Bình Thuận,2018,Du lịch,84,Cloud,Medium,119.3,580000
-Cà Mau,2019,Bán lẻ,102,CRM,Large,134.7,800000
-Gia Lai,2019,Dịch vụ,76,AI,Small,110.6,430000
-Hà Giang,2020,Sản xuất,69,ERP,Medium,122.4,650000
-Hà Nam,2020,CNTT,85,Cloud,Small,118.2,540000
-Hà Tĩnh,2011,Dịch vụ,88,Email,Small,116.3,490000
-Hải Dương,2011,Bán lẻ,92,CRM,Medium,120.1,600000
-Hậu Giang,2012,Du lịch,77,Email,Small,112.6,470000
-Hòa Bình,2012,Sản xuất,64,ERP,Large,129.8,780000
-Hưng Yên,2013,CNTT,83,AI,Medium,124.0,620000
-Kiên Giang,2013,Dịch vụ,99,Cloud,Small,118.5,510000
-Kon Tum,2014,Bán lẻ,58,CRM,Small,111.7,460000
-Lai Châu,2014,Sản xuất,62,ERP,Medium,126.9,690000
-Lào Cai,2015,Du lịch,65,Email,Small,115.8,380000
-Long An,2015,Bán lẻ,110,CRM,Large,132.5,860000
-Nam Định,2016,Sản xuất,73,Cloud,Medium,121.3,640000
-Ninh Bình,2016,CNTT,79,AI,Small,117.6,520000
-Ninh Thuận,2017,Dịch vụ,68,Email,Small,112.9,480000
-Phú Thọ,2017,Du lịch,91,CRM,Medium,128.0,670000
-Phú Yên,2018,Bán lẻ,88,Cloud,Small,119.1,560000
-Quảng Bình,2018,Sản xuất,97,ERP,Large,136.2,820000
-Quảng Nam,2019,Dịch vụ,103,Email,Small,123.4,610000
-Quảng Ngãi,2019,CNTT,92,CRM,Small,114.0,500000
-Quảng Trị,2020,Du lịch,81,AI,Medium,121.7,620000
-Sóc Trăng,2020,Bán lẻ,86,Cloud,Small,118.9,530000
-Sơn La,2011,Sản xuất,74,ERP,Large,133.2,810000
-Tây Ninh,2011,CNTT,69,AI,Medium,120.5,600000
-Thái Bình,2012,Dịch vụ,96,Email,Small,124.7,650000
-Thái Nguyên,2012,Sản xuất,101,ERP,Large,139.1,900000
-Tiền Giang,2013,Du lịch,90,Cloud,Small,118.5,510000
-Trà Vinh,2013,CNTT,85,ERP,Small,120.3,540000
-Tuyên Quang,2014,Bán lẻ,72,Email,Large,129.0,770000
-Vĩnh Long,2014,Sản xuất,108,AI,Medium,131.2,720000
-Vĩnh Phúc,2015,Dịch vụ,91,CRM,Small,122.6,610000
-Yên Bái,2015,Bán lẻ,66,Cloud,Small,114.8,520000
-Bạc Liêu,2016,Sản xuất,78,ERP,Large,135.9,820000
-Bắc Cạn,2016,Dịch vụ,54,Email,Small,111.0,450000
-Bắc Giang,2017,CNTT,112,Email,Medium,122.0,670000
-Bắc Ninh,2017,Sản xuất,156,CRM,Large,139.6,910000
-Bến Tre,2018,Bán lẻ,89,Email,Small,123.2,590000
-Bình Phước,2018,Dịch vụ,83,AI,Medium,125.1,640000
-Cao Bằng,2019,CNTT,57,Cloud,Small,116.7,520000
-Đắk Lắk,2019,Sản xuất,127,CRM,Medium,130.4,710000
-Đắk Nông,2020,Dịch vụ,73,Email,Small,115.9,500000
-Điện Biên,2020,Bán lẻ,69,ERP,Large,132.8,860000
-Lạng Sơn,2011,Du lịch,82,CRM,Small,118.0,520000
-Hà Nội,2021,CNTT,145,Cloud,Large,142.2,920000
-Hồ Chí Minh,2022,Dịch vụ,167,ERP,Medium,132.7,690000
-Đà Nẵng,2023,Du lịch,103,ERP,Large,135.1,650000
-Hải Phòng,2021,Sản xuất,109,AI,Medium,129.3,730000
-Cần Thơ,2022,Bán lẻ,94,CRM,Small,117.2,460000
-Bình Dương,2023,Sản xuất,151,AI,Large,141.7,880000
-Đồng Nai,2021,Bán lẻ,99,Email,Small,119.8,560000
-Khánh Hòa,2022,Du lịch,112,Cloud,Medium,126.5,650000
-Quảng Ninh,2023,CNTT,95,Email,Large,138.2,910000
-Lâm Đồng,2021,Dịch vụ,88,CRM,Small,125.0,510000
-Thanh Hóa,2022,CNTT,121,AI,Medium,133.6,770000
-Nghệ An,2023,Bán lẻ,85,CRM,Large,134.7,800000
-Thừa Thiên - Huế,2021,CNTT,81,ERP,Medium,122.0,650000
-An Giang,2022,Dịch vụ,102,Email,Small,116.4,520000
-Bình Định,2023,CNTT,97,Cloud,Small,124.2,600000
-Bình Thuận,2021,Du lịch,84,CRM,Medium,120.6,610000
-Cà Mau,2022,Bán lẻ,108,CRM,Large,133.9,820000
-Gia Lai,2023,Dịch vụ,92,Email,Small,121.1,590000
-Hà Giang,2021,Du lịch,73,Cloud,Small,114.5,480000
-Hà Nam,2022,Sản xuất,99,ERP,Medium,128.4,670000
-Hà Tĩnh,2023,Bán lẻ,88,Email,Small,118.9,520000
-Hải Dương,2021,Dịch vụ,104,AI,Medium,130.7,710000
-Hậu Giang,2022,CNTT,91,Cloud,Small,119.6,560000
-Hòa Bình,2023,Du lịch,97,Email,Small,121.3,580000
-Hưng Yên,2021,Bán lẻ,106,CRM,Large,133.5,820000
-Kiên Giang,2022,Dịch vụ,115,Email,Medium,127.4,680000
-Kon Tum,2023,Sản xuất,68,ERP,Small,120.2,540000
+Hà Nội,2011,Service,112,Email,Small,120.5,500000
+Hồ Chí Minh,2011,Manufacture,158,CRM,Large,118.3,840000
+Đà Nẵng,2012,IT,95,Cloud,Medium,127.9,620000
+Hải Phòng,2012,Retail,86,AI,Small,114.2,560000
+Cần Thơ,2013,Service,101,ERP,Medium,121.6,610000
+Bình Dương,2013,Manufacture,142,ERP,Large,137.4,850000
+Đồng Nai,2014,Information Technology,119,AI,Medium,128.6,740000
+Khánh Hòa,2014,Tourism,88,Email,Small,113.1,520000
+Quảng Ninh,2015,Service,126,Cloud,Small,123.9,570000
+Lâm Đồng,2015,Retail,94,CRM,Medium,118.7,600000
+Thanh Hóa,2016,Tourism,146,Cloud,Large,135.3,830000
+Nghệ An,2016,IT,100,Email,Small,129.5,590000
+Thừa Thiên - Huế,2017,Manufacture,111,ERP,Medium,132.0,700000
+An Giang,2017,Retail,90,AI,Small,117.8,520000
+Bình Định,2018,Service,97,Email,Small,125.6,640000
+Bình Thuận,2018,Tourism,84,Cloud,Medium,119.3,580000
+Cà Mau,2019,Retail,102,CRM,Large,134.7,800000
+Gia Lai,2019,Service,76,AI,Small,110.6,430000
+Hà Giang,2020,Manufacture,69,ERP,Medium,122.4,650000
+Hà Nam,2020,IT,85,Cloud,Small,118.2,540000
+Hà Tĩnh,2011,Service,88,Email,Small,116.3,490000
+Hải Dương,2011,Retail,92,CRM,Medium,120.1,600000
+Hậu Giang,2012,Tourism,77,Email,Small,112.6,470000
+Hòa Bình,2012,Manufacture,64,ERP,Large,129.8,780000
+Hưng Yên,2013,IT,83,AI,Medium,124.0,620000
+Kiên Giang,2013,Service,99,Cloud,Small,118.5,510000
+Kon Tum,2014,Retail,58,CRM,Small,111.7,460000
+Lai Châu,2014,Manufacture,62,ERP,Medium,126.9,690000
+Lào Cai,2015,Tourism,65,Email,Small,115.8,380000
+Long An,2015,Retail,110,CRM,Large,132.5,860000
+Nam Định,2016,Manufacture,73,Cloud,Medium,121.3,640000
+Ninh Bình,2016,IT,79,AI,Small,117.6,520000
+Ninh Thuận,2017,Service,68,Email,Small,112.9,480000
+Phú Thọ,2017,Tourism,91,CRM,Medium,128.0,670000
+Phú Yên,2018,Retail,88,Cloud,Small,119.1,560000
+Quảng Bình,2018,Manufacture,97,ERP,Large,136.2,820000
+Quảng Nam,2019,Service,103,Email,Small,123.4,610000
+Quảng Ngãi,2019,IT,92,CRM,Small,114.0,500000
+Quảng Trị,2020,Tourism,81,AI,Medium,121.7,620000
+Sóc Trăng,2020,Retail,86,Cloud,Small,118.9,530000
+Sơn La,2011,Manufacture,74,ERP,Large,133.2,810000
+Tây Ninh,2011,IT,69,AI,Medium,120.5,600000
+Thái Bình,2012,Service,96,Email,Small,124.7,650000
+Thái Nguyên,2012,Manufacture,101,ERP,Large,139.1,900000
+Tiền Giang,2013,Tourism,90,Cloud,Small,118.5,510000
+Trà Vinh,2013,IT,85,ERP,Small,120.3,540000
+Tuyên Quang,2014,Retail,72,Email,Large,129.0,770000
+Vĩnh Long,2014,Manufacture,108,AI,Medium,131.2,720000
+Vĩnh Phúc,2015,Service,91,CRM,Small,122.6,610000
+Yên Bái,2015,Retail,66,Cloud,Small,114.8,520000
+Bạc Liêu,2016,Manufacture,78,ERP,Large,135.9,820000
+Bắc Cạn,2016,Service,54,Email,Small,111.0,450000
+Bắc Giang,2017,IT,112,Email,Medium,122.0,670000
+Bắc Ninh,2017,Manufacture,156,CRM,Large,139.6,910000
+Bến Tre,2018,Retail,89,Email,Small,123.2,590000
+Bình Phước,2018,Service,83,AI,Medium,125.1,640000
+Cao Bằng,2019,IT,57,Cloud,Small,116.7,520000
+Đắk Lắk,2019,Manufacture,127,CRM,Medium,130.4,710000
+Đắk Nông,2020,Service,73,Email,Small,115.9,500000
+Điện Biên,2020,Retail,69,ERP,Large,132.8,860000
+Lạng Sơn,2011,Tourism,82,CRM,Small,118.0,520000
+Hà Nội,2021,IT,145,Cloud,Large,142.2,920000
+Hồ Chí Minh,2022,Service,167,ERP,Medium,132.7,690000
+Đà Nẵng,2023,Tourism,103,ERP,Large,135.1,650000
+Hải Phòng,2021,Manufacture,109,AI,Medium,129.3,730000
+Cần Thơ,2022,Retail,94,CRM,Small,117.2,460000
+Bình Dương,2023,Manufacture,151,AI,Large,141.7,880000
+Đồng Nai,2021,Retail,99,Email,Small,119.8,560000
+Khánh Hòa,2022,Tourism,112,Cloud,Medium,126.5,650000
+Quảng Ninh,2023,IT,95,Email,Large,138.2,910000
+Lâm Đồng,2021,Service,88,CRM,Small,125.0,510000
+Thanh Hóa,2022,IT,121,AI,Medium,133.6,770000
+Nghệ An,2023,Retail,85,CRM,Large,134.7,800000
+Thừa Thiên - Huế,2021,IT,81,ERP,Medium,122.0,650000
+An Giang,2022,Service,102,Email,Small,116.4,520000
+Bình Định,2023,IT,97,Cloud,Small,124.2,600000
+Bình Thuận,2021,Tourism,84,CRM,Medium,120.6,610000
+Cà Mau,2022,Retail,108,CRM,Large,133.9,820000
+Gia Lai,2023,Service,92,Email,Small,121.1,590000
+Hà Giang,2021,Tourism,73,Cloud,Small,114.5,480000
+Hà Nam,2022,Manufacture,99,ERP,Medium,128.4,670000
+Hà Tĩnh,2023,Retail,88,Email,Small,118.9,520000
+Hải Dương,2021,Service,104,AI,Medium,130.7,710000
+Hậu Giang,2022,IT,91,Cloud,Small,119.6,560000
+Hòa Bình,2023,Tourism,97,Email,Small,121.3,580000
+Hưng Yên,2021,Retail,106,CRM,Large,133.5,820000
+Kiên Giang,2022,Service,115,Email,Medium,127.4,680000
+Kon Tum,2023,Manufacture,68,ERP,Small,120.2,540000
 

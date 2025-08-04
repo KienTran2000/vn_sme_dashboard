@@ -5,6 +5,10 @@ import plotly.express as px  # type: ignore
 import json
 from dash.dependencies import State
 from dash import ctx
+import plotly.express as px
+import plotly.graph_objects as go  # 👈 thêm dòng này
+import plotly.graph_objects as go
+import plotly.express as px
 
 # Load dữ liệu và bản đồ
 df = pd.read_csv('sme_data.csv')
@@ -46,7 +50,7 @@ app.layout = html.Div([
                 options=[{'label': s, 'value': s} for s in df['Sector'].unique()],
                 value=None,
                 placeholder="Choose a profession...",
-                style={'backgroundColor': '#ffffff'}
+                style={'backgroundColor': '#ffffff'},
             )
             ], style={'width': '49%', 'display': 'inline-block', 'paddingRight': '1%'}),
         
@@ -142,6 +146,7 @@ app.layout = html.Div([
             'cursor': 'pointer'  # con trỏ ngón tay
         }),
 
+        
         dcc.Graph(id='bar', style={
             'width': '38%',
             'height': '650px',
@@ -192,7 +197,7 @@ def update_dashboard(year_range, sector, tech, size, display_mode):
 
     # Map
     df_map = dff.groupby('Province', as_index=False)[display_mode].mean()
-    map_fig = px.choropleth_mapbox(
+    choropleth = px.choropleth_mapbox(
         df_map,
         geojson=geojson,
         locations='Province',
@@ -205,61 +210,90 @@ def update_dashboard(year_range, sector, tech, size, display_mode):
         title="	SME Rate by Province" if display_mode == 'CNTT_Used' else "Productivity by province",
         hover_data=['Province']
     )
+    map_fig = go.Figure(choropleth.data) # type: ignore
 
+# Thêm các điểm scatter mapbox cho Hoàng Sa và Trường Sa
+    map_fig.add_trace(go.Scattermapbox(
+        lat=[16.8333, 11.6667],
+        lon=[112.3167, 114.3333],
+        mode='markers+text',
+        marker=go.scattermapbox.Marker(size=10, color='red'),
+        text=["Hoang Sa (Vietnam) ", "Truong Sa (Vietnam)"],
+        textposition="top center",
+        hoverinfo="text",
+        name="Sovereign Islands"
+    ))
+
+# Kế thừa layout choropleth
+    map_fig.update_layout(choropleth.layout)
     # Bar
 
     df_bar = dff.groupby(['Year', 'Technology'], as_index=False)[display_mode].mean()
-    bar_fig = px.bar(
-        df_bar,
-        x='Technology',
-        y=display_mode,
-        animation_frame='Year',  # << thêm dòng này
-        title="📊 Number of SMEs by Technology" if display_mode == 'CNTT_Used' else "⚙️ Productivity by Technology",
-            color='Technology',  # Group theo công nghệ để tạo màu
-    color_discrete_map={
-        'AI': '#86efac',        # xanh lá pastel
-        'CRM': '#fca5a5',       # đỏ hồng
-        'Cloud': '#a5b4fc',     # xanh dương nhạt
-        'ERP': '#f9a8d4'        # hồng nhẹ
-    }
-    )
-    
-    bar_fig.update_layout(
-    updatemenus=[{
-        "buttons": [
-            {
-                "args": [None, {"frame": {"duration": 1500, "redraw": True},
-                                "fromcurrent": True,
-                                "transition": {"duration": 500}}],
-                "label": "▶️",
-                "method": "animate"
-            },
-            {
-                "args": [[None], {"frame": {"duration": 0, "redraw": False},
-                                  "mode": "immediate",
-                                  "transition": {"duration": 0}}],
-                "label": "⏹",
-                "method": "animate"
-            }
-        ],
-        "direction": "left",
-        "pad": {"r": 10, "t": 70},
-        "showactive": True,
-        "type": "buttons",
-        "x": 0.1,
-        "xanchor": "right",
-        "y": 0,
-        "yanchor": "top"
-    }],
-    sliders=[{
-        "transition": {"duration": 500},
-        "pad": {"b": 10},
-        "currentvalue": {"prefix": "Year="},
-        "len": 0.9
-    }]
-)
+    df_bar[display_mode] = df_bar[display_mode].fillna(0)
+    # # Bar chart fix – đảm bảo đủ công nghệ mỗi năm
+    # years = dff['Year'].unique()
+    # technologies = df['Technology'].unique()  # dùng full tech từ toàn bộ data
 
-    return map_fig, bar_fig
+    # # Tạo index đầy đủ
+    # full_index = pd.MultiIndex.from_product([years, technologies], names=["Year", "Technology"])
+
+    # # Group dữ liệu
+    # df_bar = dff.groupby(['Year', 'Technology'], as_index=False)[display_mode].mean()
+
+    # # Set index và reindex đầy đủ
+    # df_bar = df_bar.set_index(['Year', 'Technology']).reindex(full_index, fill_value=0).reset_index()
+
+    # # Đảm bảo cột display_mode vẫn tồn tại (phòng khi không có dòng nào ban đầu)
+    # if display_mode not in df_bar.columns:
+    #     df_bar[display_mode] = 0
+
+    
+    # bar_fig = px.bar(
+    #     df_bar,
+        
+    #     x='Technology',
+    #     y=display_mode,
+        
+    #     # animation_frame='Year',  # << thêm dòng này
+    #     title="📊 Number of SMEs by Technology" if display_mode == 'CNTT_Used' else "⚙️ Productivity by Technology",
+    #         color='Technology',  # Group theo công nghệ để tạo màu
+    #     color_discrete_map={
+    #         'AI': '#86efac',        # xanh lá pastel
+    #         'CRM': '#fca5a5',       # đỏ hồng
+    #         'Cloud': '#a5b4fc',     # xanh dương nhạt
+    #         'ERP': '#f9a8d4'        # hồng nhẹ
+    #     }
+    #     ),
+    
+
+    # Line chart
+    line_fig = px.line(
+        df_bar,
+        x='Year',
+        y=display_mode,  
+        color='Technology',
+        markers=True,  # Có chấm tròn ở các điểm dữ liệu
+        title="📈 Number of SMEs using IT by year",
+        color_discrete_map={
+            'AI': '#86efac',
+            'CRM': '#fca5a5',
+            'Cloud': '#a5b4fc',
+            'ERP': '#f9a8d4',
+            'Email': '#fdba74'
+        }
+    )
+
+    line_fig.update_traces(mode="lines+markers")  # Đường có cả line + điểm
+    line_fig.update_layout(
+        title="📈 Productivity by Year" if display_mode == 'Productivity' else "📈 Number of SMEs using IT by year",
+        xaxis_title="Years",
+        yaxis_title="Productivity Score" if display_mode == 'Productivity' else "Number of SMEs by Technology",
+        legend_title="Technology"
+    )
+
+
+    return map_fig, line_fig
+
 @app.callback(
     Output("download-data", "data"),
     Input("download-btn", "n_clicks"),
@@ -269,6 +303,7 @@ def update_dashboard(year_range, sector, tech, size, display_mode):
     State("size-filter", "value"),
     prevent_initial_call=True
 )
+
 def download_data(n_clicks, year_range, sector, tech, size):
     dff = df.copy()
     dff = dff[(dff['Year'] >= year_range[0]) & (dff['Year'] <= year_range[1])]
